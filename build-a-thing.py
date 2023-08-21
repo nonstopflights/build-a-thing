@@ -19,7 +19,7 @@ def createNewFile():
 
 def writeIncidentsTofile(entry):
   # Let's write each entry to the file
-  if entry['state'] not in ["future", "present"]: # Let's not list future, planned downtown
+  if entry['state'] not in ["future", "present"]: # Let's not list future or planned down time
     with open("build-a-thing.md", "a") as file:
       output = f"**{entry['started']}** - #{entry['id']} - \
       **{entry['state']}** - {entry['subject']} | Incident Resolved : {entry['ended']}\n\n"
