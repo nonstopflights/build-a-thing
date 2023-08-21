@@ -1,5 +1,6 @@
 import requests
 import arrow
+import os
 
 def getJSONObject():
   # Grab the Status page, page 1. Here you could introduce logic to page through all incidents (page after page) and add them to one large object
@@ -48,5 +49,5 @@ for item in status["notices"]:
   }
   writeIncidentsTofile(statusDict)
 
-  
-  
+if os.path.isfile('./build-a-thing.md') is True:
+  print("Perfect! File has been created. 👍")
