@@ -14,8 +14,8 @@ If you should have any further questions, please let us know and we will be happ
 
 User, 
 
-Thank you for contacting us here at replit support. We do in fact locally cache packages for user environments. I see that the package you are looking for is also at version 1.34.1 in our cache as well. I am going to put in a ticket with our engineers to see if we can get that package updated for you. If this is possible, I will be sure to keep you updated as I hear back from the team. 
+Thank you for contacting us here at replit support. We do in fact have a mirror for packages for user environments. I see that the package you are looking for is also at version 1.34.1 in our cache as well. I am going to put in a ticket with our engineers to see if we can get that package updated for you. If this is possible, I will be sure to keep you updated as I hear back from the team. 
 
-In the future, this cache is something we want to have updated automaticaly as new versions of packages are released. I am going to file a feature request with your use case for the team to review. If you have any additional comments, please feel free to let me know. 
+In the future, this mirror is something we want to have updated automaticaly as new versions of packages are released. I am going to file a feature request with your use case for the team to review. If you have any additional comments, please feel free to let me know. 
 
 In the meantime, please let me know if you have any further questions and I'll be happy to help. Thanks! 
